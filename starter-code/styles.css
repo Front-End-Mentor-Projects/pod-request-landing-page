@@ -1,0 +1,46 @@
+body {
+  overflow: hidden;
+  background-color: #121725;
+}
+
+h1 {
+  color: white;
+  width: 90%;
+  height: 100vh;
+}
+
+p {
+  color: white;
+}
+
+.mainContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 80px;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid white;
+  height: 90vh;
+}
+
+.leftArea {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form {
+  border: 1px solid white;
+}
+
+.hostImage {
+  height: 654px;
+  width: 960px;
+  margin-right: -100px;
+}
